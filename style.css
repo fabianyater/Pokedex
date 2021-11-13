@@ -101,7 +101,7 @@ body {
 
 .pokemon-details {
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
   padding: 10px;
   margin: 0 auto;
   position: relative;
@@ -209,6 +209,7 @@ body {
   .pokemon-details {
     bottom: 0;
     border-radius: 7px;
+    width: 80%;
   }
 
   .pokemon-details__container {
