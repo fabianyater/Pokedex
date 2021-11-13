@@ -101,7 +101,7 @@ body {
 
 .pokemon-details {
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   padding: 10px;
   margin: 0 auto;
   position: relative;
@@ -140,8 +140,11 @@ body {
 }
 
 .footer__container {
-  width: 90%;
+  box-sizing: border-box;
+  width: 95%;
   margin: 0 auto;
+  max-width: 900px;
+  padding: 0 10px;
   text-align: center;
 }
 
@@ -199,14 +202,13 @@ body {
   }
 
   .pokemon-profile {
-    width: auto;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
   }
 
   .pokemon-details {
     bottom: 0;
     border-radius: 7px;
-    width: 40%;
   }
 
   .pokemon-details__container {
@@ -227,5 +229,21 @@ body {
   .pokemon-details__description p {
     width: auto;
     text-align: center;
+  }
+
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__title {
+    text-align: left;
+  }
+
+  .footer__list {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 0;
   }
 }
