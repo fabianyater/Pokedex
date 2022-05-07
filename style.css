@@ -238,6 +238,11 @@ body {
     width: auto;
     text-align: center;
   }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
 
   .footer__container {
     display: flex;
